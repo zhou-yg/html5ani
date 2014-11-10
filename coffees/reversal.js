@@ -8,7 +8,11 @@
 
   imgH = 95;
 
-  getImgData = function() {};
+  getImgData = function() {
+    var imgData;
+    imgData = cx.getImageData(imgX, imgY, imgW, imgH);
+    return console.log(imgData);
+  };
 
   imgRa = new Image();
 

@@ -3,6 +3,8 @@ imgW = 100
 imgH = 95
 
 getImgData = ->
+  imgData = cx.getImageData imgX,imgY,imgW,imgH
+  console.log imgData
 
 imgRa = new Image()
 imgRa.src = 'images/ra.png'

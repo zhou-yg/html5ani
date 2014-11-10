@@ -2,11 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a44b509-024d-4965-86e1-a3cfdd6f6337" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ra.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coffees/reversal.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand-mapping-ext/dir.ectory/file-no-extension" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand-mapping-ext/file.ext.ension" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand-mapping-ext/dir.ectory/sub.dir.ectory/file.ext.ension" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/octocat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/node_modules/graceful-fs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/BOM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/node_modules/abbrev/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/Gruntfile-print-text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/node_modules/abbrev/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/node_modules/graceful-fs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/which/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/node_modules/abbrev/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/node_modules/graceful-fs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/which/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/node_modules/abbrev/abbrev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/arrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/banner2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/banner3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand/js/bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand/css/baz.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/dist/built-123-a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/dist/built-123-b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/dist/built-a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/dist/built-b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/dist/built.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/chaining.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/collections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/grunt/config_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand/deep/deep.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand/deep/deeper/deeper.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand/deep/deeper/deepest/deepest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/grunt/event_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/exec.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/exec.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/src/file1-123.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/src/file1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/src/file2-123.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/files/src/file2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/grunt/file_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand/js/foo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/iso-8859-1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/iso-8859-1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/iso-8859-1.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/lint.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/grunt/log_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/gruntfile/multi-task-files.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/util/namespace_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/no_BOM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/lib/nopt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/objects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/node_modules/graceful-fs/test/open.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/grunt/option_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/node_modules/abbrev/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/node_modules/graceful-fs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/which/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/expand/css/qux.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reversal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reversal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/rimraf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/run-qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/test/run.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/test/setup.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/spawn-multibyte.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/spawn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/speed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/speed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/strings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/strings_standalone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/grunt/task_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/util/task_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/temp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/temp_tests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/template.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/grunt/template_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/test/test-async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/test/test-fiber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/test/test-sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/node_modules/abbrev/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/test.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_standalone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/lib/underscore.string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/dist/underscore.string.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/utf8.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/utf8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/fixtures/utf8.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/test/grunt/util_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/underscore.string/test/test_underscore/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/which/which.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/which/bin/which" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coffees/reversal.coffee" afterPath="$PROJECT_DIR$/coffees/reversal.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coffees/reversal.js.map" afterPath="$PROJECT_DIR$/coffees/reversal.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coffees/reversal.js" afterPath="$PROJECT_DIR$/coffees/reversal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="html5ani.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +155,8 @@
       <file leaf-file-name="reversal.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coffees/reversal.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39855072" vertical-offset="0" max-vertical-offset="828">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.1594203" vertical-offset="0" max-vertical-offset="828">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -291,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coffees/reversal.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39855072" vertical-offset="0" max-vertical-offset="828">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.1594203" vertical-offset="0" max-vertical-offset="828">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
