@@ -31,14 +31,14 @@ drawRect = (_x=0,_y=0,_color='#000000',_alpha=1)->
   cx.restore()
 
 drawRect(0,0,colorRed)
-drawRect(rectW/2,0,'#ffffff',0.5)
+drawRect(rectW/2,0,'#ff00ff',0.5)
 
 drawRect(0,rectW,colorRed2)
 drawRect(rectW/2,rectW,'#ffffff',0.5)
 
 
 drawRect(0,rectW*2,colorGreen)
-drawRect(rectW/2,rectW*2,'#ffffff',0.5)
+drawRect(rectW/2,rectW*2,'#ff0000',0.5)
 
 drawRect(0,rectW*3,colorBlue)
 drawRect(rectW/2,rectW*3,'#ffffff',0.5)

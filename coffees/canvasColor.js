@@ -58,7 +58,7 @@
 
   drawRect(0, 0, colorRed);
 
-  drawRect(rectW / 2, 0, '#ffffff', 0.5);
+  drawRect(rectW / 2, 0, '#ff00ff', 0.5);
 
   drawRect(0, rectW, colorRed2);
 
@@ -66,7 +66,7 @@
 
   drawRect(0, rectW * 2, colorGreen);
 
-  drawRect(rectW / 2, rectW * 2, '#ffffff', 0.5);
+  drawRect(rectW / 2, rectW * 2, '#ff0000', 0.5);
 
   drawRect(0, rectW * 3, colorBlue);
 
