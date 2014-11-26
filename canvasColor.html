@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<title>canvas Color</title>
+	</head>
+	<style rel="stylesheet" type="text/css">
+        *{
+            margin: 2px;
+            padding: 0;
+        }
+		#canvas{
+			background-color:#F0F0F0;
+		}
+	</style>
+	<body>
+        <p>canvas颜色计算</p>
+        <p>
+            <span>当前点击的颜色值(hex):</span>
+            <span id="currentColor"></span>
+        </p>
+		<canvas id="canvas" width="640" height="800"></canvas>
+	</body>
+	<script type="text/javascript">
+        var box = document.getElementById('canvas');
+        var cWidth = box.width;
+        var cHeight = box.height;
+        var cx = box.getContext("2d");
+        var boxTop = box.offsetTop
+        var boxLeft = box.offsetLeft
+    </script>
+    <script src="canvasColor.js"></script>
+</html>
