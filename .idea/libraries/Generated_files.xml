@@ -3,13 +3,18 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/coffees/canvasColor.js" />
+        <item url="file://$PROJECT_DIR$/coffees/canvasUtil.js" />
         <item url="file://$PROJECT_DIR$/coffees/reversal.js" />
+        <item url="file://$PROJECT_DIR$/coffees/floatList.js" />
         <item url="file://$PROJECT_DIR$/Gruntfile.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/coffees/floatList.js" />
       <root url="file://$PROJECT_DIR$/coffees/canvasColor.js" />
       <root url="file://$PROJECT_DIR$/coffees/reversal.js" />
+      <root url="file://$PROJECT_DIR$/coffees/canvasUtil.js" />
+      <root url="file://$PROJECT_DIR$/coffees/floatList.js" />
       <root url="file://$PROJECT_DIR$/Gruntfile.js" />
     </CLASSES>
     <SOURCES />

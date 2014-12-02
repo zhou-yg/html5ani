@@ -13,17 +13,32 @@
 		#canvas{
 			background-color:#F0F0F0;
 		}
+        #rotateBox{
+            background-color:#F4F4F4;
+        }
 	</style>
 	<body>
         <p>翻转效果</p>
         <button onclick="upDown()">上下翻转</button>
-		<canvas id="canvas" width="640" height="800"></canvas>
+        <p>
+            <span>当前点击的颜色值(hex):</span>
+            <span id="currentColor"></span>
+        </p>
+		<canvas id="canvas" width="640" height="400"></canvas>
+        <canvas id="rotateBox" width="100" height="95"></canvas>
 	</body>
 	<script type="text/javascript">
-        var box = document.getElementById('canvas');
-        var cWidth = box.width;
-        var cHeight = box.height;
-        var cx = box.getContext("2d");
+        var box = document.getElementById('canvas'),
+                cWidth = box.width,
+                cHeight = box.height,
+                cx = box.getContext("2d"),
+                boxTop = box.offsetTop,
+                boxLeft = box.offsetLeft;
+
+        var rotateBox = document.getElementById('rotateBox'),
+            rotateCx = rotateBox.getContext('2d');
+
     </script>
+    <script src="canvasUtil.js"></script>
     <script src="reversal.js"></script>
 </html>

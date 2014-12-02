@@ -1,13 +1,28 @@
 (function() {
-  var aniToWhite, fillARect, getImgData, imgData, imgH, imgRa, imgW, imgX, imgY;
+  var fillARect, getImgData, imgData, imgRa;
 
-  imgX = imgY = 100;
+  window.imgX = window.imgY = 100;
 
-  imgW = 100;
+  window.imgW = 100;
 
-  imgH = 95;
+  window.imgH = 95;
 
   imgData = [];
+
+  box.onclick = function(_e) {
+    var c, colorDec, currentColorSpan, i, imagedata, x, y, _i, _len, _ref;
+    currentColorSpan = document.getElementById('currentColor');
+    x = _e.pageX - boxLeft;
+    y = _e.pageY - boxTop;
+    colorDec = '';
+    imagedata = cx.getImageData(x, y, 1, 1);
+    _ref = imagedata.data;
+    for (i = _i = 0, _len = _ref.length; _i < _len; i = ++_i) {
+      c = _ref[i];
+      colorDec = colorDec + (i === 0 ? c : '-' + c);
+    }
+    return currentColorSpan.innerHTML = colorDec;
+  };
 
   fillARect = function() {
     var th, tw, tx, ty;
@@ -21,35 +36,9 @@
     return cx.restore();
   };
 
-  aniToWhite = function(_percent) {
-    var a, allDots, b, g, i, r, _i;
-    console.log(_percent);
-    if (_percent > 1) {
-      return;
-    }
-    allDots = imgW * imgH * 4;
-    for (i = _i = 0; 0 <= allDots ? _i <= allDots : _i >= allDots; i = 0 <= allDots ? ++_i : --_i) {
-      if ((i + 1) % 4 === 0) {
-        r = imgData.data[i - 3];
-        g = imgData.data[i - 2];
-        b = imgData.data[i - 1];
-        a = imgData.data[i];
-        if (r || g || b) {
-          imgData.data[i - 3] = 255;
-          imgData.data[i - 2] = 255;
-          imgData.data[i - 1] = 255;
-        }
-      }
-    }
-    cx.save();
-    cx.globalAlpha = 0.5;
-    cx.putImageData(imgData, imgX * 2, imgY);
-    return cx.restore();
-  };
-
   getImgData = function() {
-    imgData = cx.getImageData(imgX, imgY, imgW, imgH);
-    return aniToWhite(0);
+    imgData = cx.getImageData(0, 0, imgW, imgH);
+    return imgData;
   };
 
   imgRa = new Image();
@@ -57,9 +46,18 @@
   imgRa.src = 'images/ra.png';
 
   imgRa.onload = function() {
-    cx.drawImage(imgRa, imgX, imgY, imgW, imgH);
-    getImgData();
-    return fillARect();
+    var imageData;
+    cx.drawImage(imgRa, 0, 0, imgW, imgH);
+    imageData = getImgData();
+    cx.translate(2 * imgX, 2 * imgY);
+    return canvasGraphics.gradualToWhite(imageData, function(_resultData, i, max) {
+      rotateCx.putImageData(_resultData, 0, 0);
+      cx.clearRect(-imgX, -imgY, 2 * imgW, 2 * imgH);
+      cx.save();
+      cx.rotate(3 * i / max * Math.PI);
+      cx.drawImage(rotateBox, -imgW / 2, -imgH / 2);
+      return cx.restore();
+    });
   };
 
   window.upDown = function() {

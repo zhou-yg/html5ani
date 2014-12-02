@@ -1,7 +1,19 @@
-imgX = imgY = 100
-imgW = 100
-imgH = 95
+window.imgX = window.imgY = 100
+window.imgW = 100
+window.imgH = 95
 imgData = []
+
+box.onclick = (_e)->
+  currentColorSpan = document.getElementById('currentColor')
+  x = _e.pageX-boxLeft
+  y = _e.pageY-boxTop
+
+  colorDec = ''
+  imagedata = cx.getImageData(x,y,1,1)
+
+  for c,i in imagedata.data
+    colorDec =  colorDec + if i is 0 then c else '-'+c
+  currentColorSpan.innerHTML = colorDec
 
 fillARect = ->
 
@@ -18,45 +30,26 @@ fillARect = ->
   #get rect
 
 
-aniToWhite = (_percent)->
-  console.log _percent
-  if _percent>1
-    return
-
-  allDots = imgW * imgH * 4
-
-  for i in [0..allDots]
-
-    if (i+1)%4 is 0
-      r = imgData.data[i-3]
-      g = imgData.data[i-2]
-      b = imgData.data[i-1]
-      a = imgData.data[i]
-
-      if r || g || b
-        imgData.data[i-3] = 255
-        imgData.data[i-2] = 255
-        imgData.data[i-1] = 255
-
-  cx.save()
-  cx.globalAlpha = 0.5
-  cx.putImageData imgData,imgX*2,imgY
-  cx.restore()
-
-
 getImgData = ->
-  imgData = cx.getImageData imgX,imgY,imgW,imgH
-
-  aniToWhite 0
+  imgData = cx.getImageData 0,0,imgW,imgH
+  #aniToWhite 0
+  return imgData
 
 imgRa = new Image()
 imgRa.src = 'images/ra.png'
 imgRa.onload = ->
-  cx.drawImage imgRa,imgX,imgY,imgW,imgH
+  cx.drawImage imgRa,0,0,imgW,imgH
 
-  getImgData()
+  imageData = getImgData()
 
-  fillARect()
+  cx.translate 2*imgX,2*imgY
+  canvasGraphics.gradualToWhite imageData,(_resultData,i,max)->
+    rotateCx.putImageData _resultData,0,0
+    cx.clearRect -imgX, -imgY, 2*imgW, 2*imgH
+    cx.save()
+    cx.rotate 3*i/max*Math.PI
+    cx.drawImage rotateBox, -imgW/2, -imgH/2
+    cx.restore()
 
 window.upDown = ->
   console.log 'upDown'
